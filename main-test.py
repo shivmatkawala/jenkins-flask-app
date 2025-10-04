@@ -1,5 +1,5 @@
 import pytest
-from main import app
+from app import app
 from datetime import datetime
 
 @pytest.fixture
