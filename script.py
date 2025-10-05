@@ -6,7 +6,7 @@ REPORT_FILE = "report.txt"
 
 def run_pylint():
     result = subprocess.run(
-        ["pylint", CODE_PATH],
+        ["/usr/local/bin/pylint", CODE_PATH],
         capture_output=True,
         text=True
     )
